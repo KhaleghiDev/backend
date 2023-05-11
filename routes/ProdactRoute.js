@@ -1,10 +1,10 @@
-import express from "express";
-import { getProdact } from "../controllers/ProductController.js";
+import express  from "express";
+import { getProducts } from "./../controllers/ProductController.js";
 
 const router =express.Router();
 
 
-router.get("/prodacts",getProdact);
+router.get("/prodacts",getProducts);
 
 
 

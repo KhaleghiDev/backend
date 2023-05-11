@@ -1,7 +1,9 @@
 import Prodact from "./../models/ProductModel.js";
 
 
-exports.const.getProdact=()=>{
 
-}
-export default getProdact;
+    export const getProducts = (req,res)=> {
+        // body of the function
+      }
+  
+
